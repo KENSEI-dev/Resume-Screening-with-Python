@@ -1,10 +1,3 @@
-# you need to install all these in your terminal
-# pip install streamlit
-# pip install scikit-learn
-# pip install python-docx
-# pip install PyPDF2
-
-
 import streamlit as st
 import pickle
 import docx  # Extract text from Word file
@@ -96,7 +89,7 @@ def pred(input_resume):
 def main():
     st.set_page_config(page_title="Resume Category Prediction", page_icon="📄", layout="wide")
 
-    st.title("Resume Category Prediction App")
+    st.title("AI Resume Screening Job")
     st.markdown("Upload a resume in PDF, TXT, or DOCX format and get the predicted job category.")
 
     # File upload section
